@@ -1,0 +1,1297 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Shamil - Personal Portfolio</title>
+
+  <!--
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./assets/images/logo.ico" type="image/x-icon">
+
+  <!--
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!--
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <!--
+    - #MAIN
+  -->
+
+  <main>
+
+    <!--
+      - #SIDEBAR
+    -->
+
+    <aside class="sidebar" data-sidebar>
+
+      <div class="sidebar-info">
+
+        <figure class="avatar-box">
+          <img src="./assets/images/my-avatar.png" alt="Your Name" width="80">
+        </figure>
+
+        <div class="info-content">
+          <h1 class="name" title="Your Name">Mohamed Shamil</h1>
+
+          <p class="title">3rd Year Undergraduate @UOM</p>
+          <p class="title">Intern @ riseAI</p>
+          <p class="title">GenAI & Agentic AI Enthusiast</p>
+
+        </div>
+
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Contacts</span>
+
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+
+      </div>
+
+      <div class="sidebar-info_more">
+
+        <div class="separator"></div>
+
+        <ul class="contacts-list">
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+
+              <a href="mailto:shamilmrm.21@uom.lk" class="contact-link">shamilmrm.21@uom.lk</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="phone-portrait-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Phone</p>
+
+              <a href="tel:+94762859696" class="contact-link">+94 76 285 9696</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="calendar-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Birthday</p>
+
+              <time datetime="2001-09-04">September 4, 2001</time>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Location</p>
+
+              <address>Madige Midiyala, Bandara Koswatta, Kurunegala, Sri Lanka</address>
+            </div>
+
+          </li>
+
+        </ul>
+
+        <div class="separator"></div>
+
+        <ul class="social-list">
+
+          <li class="social-item">
+            <a href="https://web.facebook.com/mohamed.shamil.986?mibextid=ZbWKwL&_rdc=1&_rdr" class="social-link">
+              <ion-icon name="logo-facebook"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://www.instagram.com/___s_h_a_m_i_l__?igsh=ZDY1YjVmMHliNHpr" class="social-link">
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://www.linkedin.com/in/mohamed-shamil-b40295253/" class="social-link" target="_blank">
+              <ion-icon name="logo-linkedin"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://github.com/shamil3923" class="social-link" target="_blank">
+              <ion-icon name="logo-github"></ion-icon>
+            </a>
+          </li>
+
+
+        </ul>
+
+      </div>
+
+    </aside>
+
+
+
+
+
+    <!--
+      - #main-content
+    -->
+
+    <div class="main-content">
+
+      <!--
+        - #NAVBAR
+      -->
+
+      <nav class="navbar">
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <button class="navbar-link  active" data-nav-link>About</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Resume</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Projects</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Blog</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Contact</button>
+          </li>
+
+        </ul>
+
+      </nav>
+
+
+
+
+
+      <!--
+        - #ABOUT
+      -->
+
+      <article class="about  active" data-page="about">
+
+        <header>
+          <h2 class="h2 article-title">About me</h2>
+        </header>
+
+        <section class="about-text">
+          <p>
+            I'm a 3rd year AI/ML undergraduate at the University of Moratuwa and an AI/ML intern at riseAI. I am passionate about developing generative AI and agentic AI solutions that solve real-world problems.
+          </p>
+
+          <p>
+            My focus is on building intelligent systems that are not only functional and efficient but also innovative and impactful. I enjoy exploring the latest advancements in AI, and I am particularly interested in how generative and agentic models can transform industries and enhance user experiences.
+          </p>
+        </section>
+
+
+        <!--
+          - service
+        -->
+
+        <section class="service">
+
+          <h3 class="h3 service-title">What i'm doing</h3>
+
+          <ul class="service-list">
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <ion-icon name="hardware-chip-outline" style="font-size: 40px; color: var(--orange-yellow-crayola);"></ion-icon>
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">AI/ML Engineer</h4>
+
+                <p class="service-item-text">
+                  Designing and developing machine learning models for real-world applications.                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <ion-icon name="bulb-outline" style="font-size: 40px; color: var(--orange-yellow-crayola);"></ion-icon>
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Generative AI Developer</h4>
+
+                <p class="service-item-text">
+                  Creating innovative generative AI solutions for text, images, and more.                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <ion-icon name="git-network-outline" style="font-size: 40px; color: var(--orange-yellow-crayola);"></ion-icon>
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Agentic AI Enthusiast</h4>
+
+                <p class="service-item-text">
+                  Exploring and building autonomous agentic AI systems.                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <ion-icon name="code-slash-outline" style="font-size: 40px; color: var(--orange-yellow-crayola);"></ion-icon>
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Full Stack Developer</h4>
+
+                <p class="service-item-text">
+                  Building web and mobile applications using React, Java, and Flutter.                </p>
+              </div>
+
+            </li>
+
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <ion-icon name="search-outline" style="font-size: 40px; color: var(--orange-yellow-crayola);"></ion-icon>
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Undergraduate Researcher</h4>
+
+                <p class="service-item-text">
+                  Investigating cutting-edge topics in AI and machine learning.                </p>
+              </div>
+
+            </li>
+
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <ion-icon name="calculator-outline" style="font-size: 40px; color: var(--orange-yellow-crayola);"></ion-icon>
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Maths Teacher (G.C.E O/L)</h4>
+
+                <p class="service-item-text">
+                  Teaching mathematics to G.C.E O/L students, making complex concepts simple and engaging.                </p>
+              </div>
+
+            </li>
+
+          </ul>
+
+        </section>
+
+
+
+
+
+
+
+      </article>
+
+
+
+
+
+      <!--
+        - #RESUME
+      -->
+
+      <article class="resume" data-page="resume">
+
+        <header>
+          <h2 class="h2 article-title">Resume</h2>
+
+          <!-- Resume Download Button -->
+          <div class="resume-download-container">
+            <button class="resume-download-btn" id="downloadResumeBtn">
+              <ion-icon name="download-outline"></ion-icon>
+              <span>Download Resume</span>
+            </button>
+          </div>
+        </header>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Education</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Bachelor of Science Honours in Artificial Intelligence (BSc Hons (AI))</h4>
+
+              <span>2022 — 2026</span>
+
+              <p class="timeline-text">
+                University of Moratuwa, Faculty of Information Technology. Currently maintaining a CGPA of 3.29 (Until L2S2).
+                Specializing in AI/ML engineering with focus on generative AI and agentic systems.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">G.C.E Advanced Level - Physical Science Stream</h4>
+
+              <span>2018 — 2020</span>
+
+              <p class="timeline-text">
+                Kekunagolla National School. Achieved excellent results with Mathematics - A, Physics - B, Chemistry - A.
+                Z-score: 1.7860, demonstrating strong foundation in STEM subjects.
+              </p>
+
+            </li>
+
+          </ol>
+
+        </section>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Experience</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">AI/ML Engineering Intern</h4>
+
+              <span>Present</span>
+
+              <p class="timeline-text">
+                riseAI - Working on cutting-edge AI/ML projects, developing generative AI solutions and agentic systems.
+                Contributing to innovative AI applications and gaining hands-on experience in production-level AI systems.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">AI-Assisted Carbon Footprint Monitoring System</h4>
+
+              <span>11/2023 — 07/2024</span>
+
+              <p class="timeline-text">
+                Sysco Labs Company - Collaborative project analyzing CO2e emissions in food supply chain using AI/ML.
+                Led data preprocessing, ML modeling, backend microservices development, and UI design. Technologies: React.js, Node.js, Spring Boot, MySQL, Scikit-learn, Google Cloud.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Mathematics Teacher (G.C.E O/L)</h4>
+
+              <span>Part-time</span>
+
+              <p class="timeline-text">
+                Teaching mathematics to G.C.E O/L students, making complex mathematical concepts simple and engaging.
+                Developing strong communication and mentoring skills while helping students achieve academic success.
+              </p>
+
+            </li>
+
+          </ol>
+
+        </section>
+
+        <section class="skill">
+
+          <h3 class="h3 skills-title">My skills</h3>
+
+          <ul class="skills-list content-card">
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Python</h5>
+                <data value="90">90%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 90%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Machine Learning</h5>
+                <data value="85">85%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 85%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">React.js</h5>
+                <data value="80">80%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 80%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Java</h5>
+                <data value="75">75%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 75%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Spring Boot</h5>
+                <data value="70">70%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 70%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">MySQL/MSSQL</h5>
+                <data value="75">75%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 75%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Google Cloud</h5>
+                <data value="70">70%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 70%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Generative AI</h5>
+                <data value="80">80%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 80%;"></div>
+              </div>
+
+            </li>
+
+          </ul>
+
+        </section>
+        <section class="certificates">
+
+          <h3 class="h3 certificates-title">Certificates</h3>
+
+          <div class="certificates-grid">
+
+            <div class="certificate-item">
+              <div class="certificate-content">
+                <h4 class="h4 certificate-title">Python For Beginners</h4>
+                <p class="certificate-issuer">University of Moratuwa</p>
+                <div class="certificate-badge">
+                  <ion-icon name="ribbon-outline"></ion-icon>
+                </div>
+              </div>
+              <div class="certificate-link">
+                <a href="https://drive.google.com/file/d/1xE7glAwuhveMtci93TGUM4qf7yFIjFWR/view" class="cert-link" target="_blank">
+                  <ion-icon name="document-outline"></ion-icon>
+                  <span>View Certificate</span>
+                </a>
+              </div>
+            </div>
+
+            <div class="certificate-item">
+              <div class="certificate-content">
+                <h4 class="h4 certificate-title">Python Intermediate</h4>
+                <p class="certificate-issuer">Solo Learn</p>
+                <div class="certificate-badge">
+                  <ion-icon name="ribbon-outline"></ion-icon>
+                </div>
+              </div>
+              <div class="certificate-link">
+                <a href="https://drive.google.com/file/d/17fGjJYiW0PQKfj4WDWApojOaZEMrAAtZ/view" class="cert-link" target="_blank">
+                  <ion-icon name="document-outline"></ion-icon>
+                  <span>View Certificate</span>
+                </a>
+              </div>
+            </div>
+
+            <div class="certificate-item">
+              <div class="certificate-content">
+                <h4 class="h4 certificate-title">Introduction to Generative AI</h4>
+                <p class="certificate-issuer">Coursera</p>
+                <div class="certificate-badge">
+                  <ion-icon name="ribbon-outline"></ion-icon>
+                </div>
+              </div>
+              <div class="certificate-link">
+                <a href="#" class="cert-link" target="_blank">
+                  <ion-icon name="document-outline"></ion-icon>
+                  <span>View Certificate</span>
+                </a>
+              </div>
+            </div>
+
+            <div class="certificate-item">
+              <div class="certificate-content">
+                <h4 class="h4 certificate-title">Introduction to LLMs</h4>
+                <p class="certificate-issuer">Solo Learn</p>
+                <div class="certificate-badge">
+                  <ion-icon name="ribbon-outline"></ion-icon>
+                </div>
+              </div>
+              <div class="certificate-link">
+                <a href="https://drive.google.com/file/d/106xWxTqWhJPMlT2CHNzImL-txTkoEGKQ/view" class="cert-link" target="_blank">
+                  <ion-icon name="document-outline"></ion-icon>
+                  <span>View Certificate</span>
+                </a>
+              </div>
+            </div>
+
+            <div class="certificate-item">
+              <div class="certificate-content">
+                <h4 class="h4 certificate-title">Prompt Engineering</h4>
+                <p class="certificate-issuer">Solo Learn</p>
+                <div class="certificate-badge">
+                  <ion-icon name="ribbon-outline"></ion-icon>
+                </div>
+              </div>
+              <div class="certificate-link">
+                <a href="https://drive.google.com/file/d/1UdPj4vJLHwlAh2XIgaVMJQMFGGDmFndb/view" class="cert-link" target="_blank">
+                  <ion-icon name="document-outline"></ion-icon>
+                  <span>View Certificate</span>
+                </a>
+              </div>
+            </div>
+
+            <div class="certificate-item">
+              <div class="certificate-content">
+                <h4 class="h4 certificate-title">Introduction to Java</h4>
+                <p class="certificate-issuer">Solo Learn</p>
+                <div class="certificate-badge">
+                  <ion-icon name="ribbon-outline"></ion-icon>
+                </div>
+              </div>
+              <div class="certificate-link">
+                <a href="https://drive.google.com/file/d/1awqMaYc2jQOz1brOXb7jGC51Hiktj4PL/view" class="cert-link" target="_blank">
+                  <ion-icon name="document-outline"></ion-icon>
+                  <span>View Certificate</span>
+                </a>
+              </div>
+            </div>
+
+            <div class="certificate-item">
+              <div class="certificate-content">
+                <h4 class="h4 certificate-title">Java Intermediate</h4>
+                <p class="certificate-issuer">Solo Learn</p>
+                <div class="certificate-badge">
+                  <ion-icon name="ribbon-outline"></ion-icon>
+                </div>
+              </div>
+              <div class="certificate-link">
+                <a href="https://drive.google.com/file/d/1pKeKGPSbBIS9_C7grNHVvsmTaVyFWgo_/view" class="cert-link" target="_blank">
+                  <ion-icon name="document-outline"></ion-icon>
+                  <span>View Certificate</span>
+                </a>
+              </div>
+            </div>
+
+            <div class="certificate-item">
+              <div class="certificate-content">
+                <h4 class="h4 certificate-title">Introduction to JavaScript</h4>
+                <p class="certificate-issuer">Solo Learn</p>
+                <div class="certificate-badge">
+                  <ion-icon name="ribbon-outline"></ion-icon>
+                </div>
+              </div>
+              <div class="certificate-link">
+                <a href="https://drive.google.com/file/d/1LC0UBlM1SW-jcXhvwlvZF-UR7xcxrU6l/view" class="cert-link" target="_blank">
+                  <ion-icon name="document-outline"></ion-icon>
+                  <span>View Certificate</span>
+                </a>
+              </div>
+            </div>
+
+            <div class="certificate-item">
+              <div class="certificate-content">
+                <h4 class="h4 certificate-title">WebDesign for Beginners</h4>
+                <p class="certificate-issuer">University of Moratuwa</p>
+                <div class="certificate-badge">
+                  <ion-icon name="ribbon-outline"></ion-icon>
+                </div>
+              </div>
+              <div class="certificate-link">
+                <a href="https://drive.google.com/file/d/1rQCZnZhVc7UmzVMCAejN30OixNoQ10dg/view" class="cert-link" target="_blank">
+                  <ion-icon name="document-outline"></ion-icon>
+                  <span>View Certificate</span>
+                </a>
+              </div>
+            </div>
+
+          </div>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #PROJECTS
+      -->
+
+      <article class="projects" data-page="projects">
+
+        <header>
+          <h2 class="h2 article-title">Projects</h2>
+        </header>
+
+        <section class="project-showcase">
+
+          <div class="projects-grid">
+
+            <!-- Project 1: AI-Assisted Carbon Footprint Monitoring System -->
+            <div class="project-card">
+              <div class="project-image">
+                <img src="./assets/images/project-ai-chat.png" alt="AI-Assisted Carbon Footprint Monitoring System" loading="lazy">
+                <div class="project-overlay">
+                  <div class="project-network"></div>
+                </div>
+              </div>
+              <div class="project-content">
+                <h3 class="project-title">AI-Assisted Carbon Footprint Monitoring System</h3>
+                <div class="project-tags">
+                  <span class="tag">React.js</span>
+                  <span class="tag">Node.js</span>
+                  <span class="tag">Spring Boot</span>
+                  <span class="tag">MySQL</span>
+                  <span class="tag">Scikit-learn</span>
+                  <span class="tag">Google Cloud</span>
+                </div>
+                <p class="project-description">
+                  Collaborative project analyzing CO2e emissions in food supply chain using AI/ML for sustainability. Led data preprocessing, ML modeling, backend microservices, and UI design under Sysco Labs guidance.
+                </p>
+                <div class="project-links">
+                  <a href="#" class="project-link">
+                    <ion-icon name="eye-outline"></ion-icon>
+                    <span>Live Demo</span>
+                  </a>
+                  <a href="https://github.com/shamil3923/Carbon-Footprint-Monitoring-Platform.git" class="project-link">
+                    <ion-icon name="logo-github"></ion-icon>
+                    <span>Source Code</span>
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <!-- Project 2: ATS Tracking System -->
+            <div class="project-card">
+              <div class="project-image">
+                <img src="./assets/images/project-task-manager.png" alt="ATS Tracking System" loading="lazy">
+                <div class="project-overlay">
+                  <div class="project-network"></div>
+                </div>
+              </div>
+              <div class="project-content">
+                <h3 class="project-title">ATS Tracking System</h3>
+                <div class="project-tags">
+                  <span class="tag">Streamlit</span>
+                  <span class="tag">Python</span>
+                  <span class="tag">Google Generative AI</span>
+                  <span class="tag">Matplotlib</span>
+                </div>
+                <p class="project-description">
+                  Built an ATS system using Streamlit and Gemini API to evaluate resumes against job descriptions. Features job match percentages, missing keywords identification, and improvement suggestions.
+                </p>
+                <div class="project-links">
+                  <a href="#" class="project-link">
+                    <ion-icon name="eye-outline"></ion-icon>
+                    <span>Live Demo</span>
+                  </a>
+                  <a href="https://github.com/shamil3923/ATS_Tracking_System.git" class="project-link">
+                    <ion-icon name="logo-github"></ion-icon>
+                    <span>Source Code</span>
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <!-- Project 3: Obesity Classification Prediction -->
+            <div class="project-card">
+              <div class="project-image">
+                <img src="./assets/images/project-social-dashboard.png" alt="Obesity Classification Prediction" loading="lazy">
+                <div class="project-overlay">
+                  <div class="project-network"></div>
+                </div>
+              </div>
+              <div class="project-content">
+                <h3 class="project-title">Obesity Classification Prediction</h3>
+                <div class="project-tags">
+                  <span class="tag">Python</span>
+                  <span class="tag">Scikit-learn</span>
+                  <span class="tag">XGBoost</span>
+                  <span class="tag">LightGBM</span>
+                </div>
+                <p class="project-description">
+                  Built ML models to predict obesity levels based on medical datasets. Evaluated classifiers including XGBoost, LightGBM, and Decision Tree with hyperparameter optimization for accuracy.
+                </p>
+                <div class="project-links">
+                  <a href="#" class="project-link">
+                    <ion-icon name="eye-outline"></ion-icon>
+                    <span>Live Demo</span>
+                  </a>
+                  <a href="https://github.com/shamil3923/Obesity_classification_prediction.git" class="project-link">
+                    <ion-icon name="logo-github"></ion-icon>
+                    <span>Source Code</span>
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <!-- Project 4: E-Waste Recycling Management - Multi-Agent System -->
+            <div class="project-card">
+              <div class="project-image">
+                <img src="./assets/images/project-ecommerce.png" alt="E-Waste Recycling Management" loading="lazy">
+                <div class="project-overlay">
+                  <div class="project-network"></div>
+                </div>
+              </div>
+              <div class="project-content">
+                <h3 class="project-title">E-Waste Recycling Management - Multi-Agent System</h3>
+                <div class="project-tags">
+                  <span class="tag">MESA</span>
+                  <span class="tag">Python</span>
+                  <span class="tag">Matplotlib</span>
+                  <span class="tag">Multi-Agent Systems</span>
+                </div>
+                <p class="project-description">
+                  Developed a multi-agent simulation to optimize e-waste collection, sorting, and recycling. Simulated agent interactions and decision-making to enhance waste management efficiency.
+                </p>
+                <div class="project-links">
+                  <a href="" class="project-link">
+                    <ion-icon name="eye-outline"></ion-icon>
+                    <span>Live Demo</span>
+                  </a>
+                  <a href="https://github.com/shamil3923/MAS-for-E-waste-Recycling-Management-.git" class="project-link">
+                    <ion-icon name="logo-github"></ion-icon>
+                    <span>Source Code</span>
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <!-- Project 5: Customized Healthcare Chatbot -->
+            <div class="project-card">
+              <div class="project-image">
+                <img src="./assets/images/chatbot.png" alt="Customized Healthcare Chatbot" loading="lazy">
+                <div class="project-overlay">
+                  <div class="project-network"></div>
+                </div>
+              </div>
+              <div class="project-content">
+                <h3 class="project-title">Customized Healthcare Chatbot</h3>
+                <div class="project-tags">
+                  <span class="tag">Vertex AI</span>
+                  <span class="tag">Python</span>
+                  <span class="tag">React</span>
+                  <span class="tag">Google Cloud</span>
+                </div>
+                <p class="project-description">
+                  Developed a healthcare chatbot using Vertex AI to address patient queries and provide medical information. Features custom React frontend and Google Cloud deployment for scalability.
+                </p>
+                <div class="project-links">
+                  <a href="#" class="project-link">
+                    <ion-icon name="eye-outline"></ion-icon>
+                    <span>Live Demo</span>
+                  </a>
+                  <a href="#" class="project-link">
+                    <ion-icon name="logo-github"></ion-icon>
+                    <span>Source Code</span>
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <!-- Project 6: Autonomous Chessboard Project -->
+            <div class="project-card">
+              <div class="project-image">
+                <img src="./assets/images/chessboard.jpg" alt="Autonomous Chessboard Project" loading="lazy">
+                <div class="project-overlay">
+                  <div class="project-network"></div>
+                </div>
+              </div>
+              <div class="project-content">
+                <h3 class="project-title">Autonomous Chessboard Project</h3>
+                <div class="project-tags">
+                  <span class="tag">Hardware</span>
+                  <span class="tag">LCD Module</span>
+                  <span class="tag">AI</span>
+                  <span class="tag">Embedded Systems</span>
+                </div>
+                <p class="project-description">
+                  Developed an AI-assisted chessboard as part of a hardware project. Responsible for LCD module development, displaying chess moves and instructions, and hardware-software integration.
+                </p>
+                <div class="project-links">
+                  <a href="#" class="project-link">
+                    <ion-icon name="eye-outline"></ion-icon>
+                    <span>Live Demo</span>
+                  </a>
+                  <a href="#" class="project-link">
+                    <ion-icon name="logo-github"></ion-icon>
+                    <span>Source Code</span>
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <!-- Project 7: Hospital Agent System -->
+            <div class="project-card">
+              <div class="project-image">
+                <img src="./assets/images/project-lms.jpg" alt="Hospital Agent System" loading="lazy">
+                <div class="project-overlay">
+                  <div class="project-network"></div>
+                </div>
+              </div>
+              <div class="project-content">
+                <h3 class="project-title">Hospital Agent System</h3>
+                <div class="project-tags">
+                  <span class="tag">LangGraph</span>
+                  <span class="tag">MCP</span>
+                  <span class="tag">RAG</span>
+                  <span class="tag">PostgreSQL</span>
+                  <span class="tag">Cloud Deployment</span>
+                  <span class="tag">Multi-Agent Systems</span>
+                </div>
+                <p class="project-description">
+                  Advanced hospital management system using multi-agent architecture with LangGraph. Features specialized agents for bed management, staff coordination, equipment tracking, and patient care with RAG implementation and cloud deployment.
+                </p>
+                <div class="project-links">
+                  <a href="#" class="project-link">
+                    <ion-icon name="eye-outline"></ion-icon>
+                    <span>Live Demo</span>
+                  </a>
+                  <a href="#" class="project-link">
+                    <ion-icon name="logo-github"></ion-icon>
+                    <span>Source Code</span>
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <!-- Project 8: Employee Leave Management System -->
+            <div class="project-card">
+              <div class="project-image">
+                <img src="./assets/images/leave.png" alt="Employee Leave Management System" loading="lazy">
+                <div class="project-overlay">
+                  <div class="project-network"></div>
+                </div>
+              </div>
+              <div class="project-content">
+                <h3 class="project-title">Employee Leave Management System</h3>
+                <div class="project-tags">
+                  <span class="tag">Gemini AI</span>
+                  <span class="tag">React</span>
+                  <span class="tag">Prompt Engineering</span>
+                  <span class="tag">AI Integration</span>
+                </div>
+                <p class="project-description">
+                  Intelligent employee leave management system powered by Gemini AI with advanced prompt engineering. Features automated leave processing, smart scheduling, and AI-driven decision support with modern React frontend.
+                </p>
+                <div class="project-links">
+                  <a href="#" class="project-link">
+                    <ion-icon name="eye-outline"></ion-icon>
+                    <span>Live Demo</span>
+                  </a>
+                  <a href="https://github.com/shamil3923/Leave_management_system.git" class="project-link">
+                    <ion-icon name="logo-github"></ion-icon>
+                    <span>Source Code</span>
+                  </a>
+                </div>
+              </div>
+            </div>
+
+
+
+          </div>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #BLOG
+      -->
+
+      <article class="blog" data-page="blog">
+
+        <header>
+          <h2 class="h2 article-title">Blog</h2>
+        </header>
+
+        <section class="blog-posts">
+
+          <ul class="blog-posts-list">
+
+            <li class="blog-post-item">
+              <a href="#">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/blog-1.jpg" alt="Design conferences in 2022" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Design</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23">Fab 23, 2022</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">Design conferences in 2022</h3>
+
+                  <p class="blog-text">
+                    Veritatis et quasi architecto beatae vitae dicta sunt, explicabo.
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="#">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/blog-2.jpg" alt="Best fonts every designer" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Design</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23">Fab 23, 2022</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">Best fonts every designer</h3>
+
+                  <p class="blog-text">
+                    Sed ut perspiciatis, nam libero tempore, cum soluta nobis est eligendi.
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="#">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/blog-3.jpg" alt="Design digest #80" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Design</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23">Fab 23, 2022</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">Design digest #80</h3>
+
+                  <p class="blog-text">
+                    Excepteur sint occaecat cupidatat no proident, quis nostrum exercitationem ullam corporis suscipit.
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="#">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/blog-4.jpg" alt="UI interactions of the week" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Design</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23">Fab 23, 2022</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">UI interactions of the week</h3>
+
+                  <p class="blog-text">
+                    Enim ad minim veniam, consectetur adipiscing elit, quis nostrud exercitation ullamco laboris nisi.
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="#">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/blog-5.jpg" alt="The forgotten art of spacing" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Design</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23">Fab 23, 2022</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">The forgotten art of spacing</h3>
+
+                  <p class="blog-text">
+                    Maxime placeat, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="#">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/blog-6.jpg" alt="Design digest #79" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Design</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23">Fab 23, 2022</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">Design digest #79</h3>
+
+                  <p class="blog-text">
+                    Optio cumque nihil impedit uo minus quod maxime placeat, velit esse cillum.
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #CONTACT
+      -->
+
+      <article class="contact" data-page="contact">
+
+        <header>
+          <h2 class="h2 article-title">Contact</h2>
+        </header>
+
+        <section class="mapbox" data-mapbox>
+          <figure>
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d63371.8!2d80.3167!3d7.4833!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ae2dca277c3c7b7%3A0x4a35b903f9c64c8e!2sKurunegala%2C%20Sri%20Lanka!5e0!3m2!1sen!2slk!4v1647608789441!5m2!1sen!2slk"
+              width="400" height="300" loading="lazy"></iframe>
+          </figure>
+        </section>
+
+        <section class="contact-form">
+
+          <h3 class="h3 form-title">Contact Form</h3>
+
+          <!-- Success Message -->
+          <div class="form-message success-message" id="successMessage" style="display: none;">
+            <ion-icon name="checkmark-circle"></ion-icon>
+            <span>Thank you! Your message has been sent successfully.</span>
+          </div>
+
+          <!-- Error Message -->
+          <div class="form-message error-message" id="errorMessage" style="display: none;">
+            <ion-icon name="alert-circle"></ion-icon>
+            <span>Sorry, there was an error sending your message. Please try again.</span>
+          </div>
+
+          <form class="form" data-form>
+
+            <div class="input-wrapper">
+              <input type="text" name="fullname" class="form-input" placeholder="Full name" required data-form-input>
+
+              <input type="email" name="email" class="form-input" placeholder="Email address" required data-form-input>
+            </div>
+
+            <textarea name="message" class="form-input" placeholder="Your Message" required data-form-input></textarea>
+
+            <button class="form-btn" type="submit" disabled data-form-btn>
+              <ion-icon name="paper-plane"></ion-icon>
+              <span>Send Message</span>
+            </button>
+
+          </form>
+
+        </section>
+
+      </article>
+
+    </div>
+
+  </main>
+
+
+
+
+
+
+  <!--
+    - EmailJS SDK (Alternative to Formspree)
+  -->
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+
+  <!--
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!--
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
