@@ -1332,6 +1332,31 @@ textarea.form-input::-webkit-resizer { display: none; }
 \*-----------------------------------*/
 
 /**
+ * responsive fix for mobile screens (max-width: 449px)
+ */
+
+@media (max-width: 449px) {
+  
+  /**
+   * #SIDEBAR - minimal fix for hidden content
+   */
+  
+  .sidebar {
+    max-height: 140px; /* Increased slightly to show all titles */
+  }
+  
+  .sidebar.active { 
+    max-height: 450px; 
+  }
+  
+  .info-content .title {
+    white-space: normal; /* Allow text wrapping */
+    word-wrap: break-word; /* Break long words if needed */
+    line-height: 1.2; /* Improve readability */
+  }
+}
+
+/**
  * responsive larger than 450px screen
  */
 
